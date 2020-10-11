@@ -6,7 +6,7 @@ import (
 	"os"
 	"time"
 
-	jwt "github.com/ductrung-nguyen/gin-jwt"
+	jwt "github.com/ductrung-nguyen/gin-jwt2"
 	"github.com/gin-gonic/gin"
 )
 

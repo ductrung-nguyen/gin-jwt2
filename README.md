@@ -20,25 +20,25 @@ Download and install using [go module](https://blog.golang.org/using-go-modules)
 
 ```sh
 export GO111MODULE=on
-go get github.com/ductrung-nguyen/gin-jwt/v2
+go get github.com/ductrung-nguyen/gin-jwt2
 ```
 
 Import it in your code:
 
 ```go
-import "github.com/ductrung-nguyen/gin-jwt/v2"
+import "github.com/ductrung-nguyen/gin-jwt2"
 ```
 
 Download and install without using [go module](https://blog.golang.org/using-go-modules):
 
 ```sh
-go get github.com/ductrung-nguyen/gin-jwt
+go get github.com/ductrung-nguyen/gin-jwt2
 ```
 
 Import it in your code:
 
 ```go
-import "github.com/ductrung-nguyen/gin-jwt"
+import "github.com/ductrung-nguyen/gin-jwt2"
 ```
 
 ## Example
@@ -56,7 +56,7 @@ import (
 	"os"
 	"time"
 
-	jwt "github.com/ductrung-nguyen/gin-jwt/v2"
+	jwt "github.com/ductrung-nguyen/gin-jwt2"
 	"github.com/gin-gonic/gin"
 )
 
